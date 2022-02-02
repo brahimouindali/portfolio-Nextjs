@@ -48,3 +48,9 @@ export const TimeLineData = [
   { year: 2020, text: "Shared my projects with the world" },
   { year: 2021, text: "Started my own platform" },
 ];
+
+export const socials = {
+  github: "https://github.com/brahimouindali",
+  instagram: "https://www.instagram.com/brahim_ouindali/",
+  linkedin: "https://www.linkedin.com/in/brahim-ouind-ali-4781b0124/",
+};

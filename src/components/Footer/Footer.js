@@ -1,5 +1,6 @@
 import React from "react";
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
+import { socials } from "../../constants/constants";
 
 import { SocialIcons } from "../Header/HeaderStyles";
 import {
@@ -34,13 +35,13 @@ const Footer = () => {
           <Slogan>Innovating one project at a time</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://google.com">
+          <SocialIcons href={socials.github}>
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://google.com">
+          <SocialIcons href={socials.linkedin}>
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://google.com">
+          <SocialIcons href={socials.instagram}>
             <AiFillInstagram size="3rem" />
           </SocialIcons>
         </SocialContainer>
