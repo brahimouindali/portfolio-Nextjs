@@ -1,12 +1,26 @@
-## Personal Portfolio
+# Next.js Crash Course Project
 
-### [Live Site](https://jsmasterypro.com)
+Project from my Next.js crash course on YouTube
 
-![Portfolio Website](https://i.ibb.co/WgPMpts/image.png)
+### Run the development server:
 
-This is a code repository for the corresponding video tutorial. Your portfolio is your resume and your business card.
+```bash
+npm run dev
+```
 
-In this video, we will create a full Personal Development Portfolio. We're going to use React and Next.js.
+### Build for production AND generate static website into "out" folder:
 
-Setup:
-- run ```npm i && npm start```
+```bash
+npm run build
+```
+
+### Run in production:
+
+```bash
+npm start
+```
+
+### API Routes:
+
+GET /api/articles
+GET /api/articles/:id
